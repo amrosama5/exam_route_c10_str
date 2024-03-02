@@ -1,6 +1,8 @@
+import 'package:exam/second_screen/home.dart';
+import 'package:exam/third_screen/home.dart';
 import 'package:flutter/material.dart';
 
-import 'home.dart';
+import 'first_screen/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: ThirdScreen(),
     );
   }
 }
